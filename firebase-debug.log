@@ -1,0 +1,44 @@
+[debug] [2022-07-29T02:09:37.467Z] ----------------------------------------------------------------------
+[debug] [2022-07-29T02:09:37.470Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Pichau\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-07-29T02:09:37.470Z] CLI Version:   11.4.0
+[debug] [2022-07-29T02:09:37.471Z] Platform:      win32
+[debug] [2022-07-29T02:09:37.471Z] Node Version:  v16.15.0
+[debug] [2022-07-29T02:09:37.473Z] Time:          Thu Jul 28 2022 23:09:37 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2022-07-29T02:09:37.473Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-29T02:09:37.576Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-29T02:09:37.576Z] > authorizing via signed-in user (pedro.sh101@gmail.com)
+[debug] [2022-07-29T02:09:37.577Z] [iam] checking project beauty-spa-84768 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-07-29T02:09:37.581Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/beauty-spa-84768:testIamPermissions [none]
+[debug] [2022-07-29T02:09:37.581Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/beauty-spa-84768:testIamPermissions x-goog-quota-user=projects/beauty-spa-84768
+[debug] [2022-07-29T02:09:37.581Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/beauty-spa-84768:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-07-29T02:09:38.552Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/beauty-spa-84768:testIamPermissions 200
+[debug] [2022-07-29T02:09:38.553Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/beauty-spa-84768:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-07-29T02:09:38.555Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/beauty-spa-84768 [none]
+[debug] [2022-07-29T02:09:39.647Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/beauty-spa-84768 200
+[debug] [2022-07-29T02:09:39.648Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/beauty-spa-84768 {"projectId":"beauty-spa-84768","projectNumber":"523319600466","displayName":"beauty-spa","name":"projects/beauty-spa-84768","resources":{"hostingSite":"beauty-spa-84768"},"state":"ACTIVE","etag":"1_50a1e09b-da4c-47df-9926-c970882d77d6"}
+[info] 
+[info] === Deploying to 'beauty-spa-84768'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-07-29T02:09:39.655Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/beauty-spa-84768 [none]
+[debug] [2022-07-29T02:09:40.808Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/beauty-spa-84768 200
+[debug] [2022-07-29T02:09:40.808Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/beauty-spa-84768 {"projectId":"beauty-spa-84768","projectNumber":"523319600466","displayName":"beauty-spa","name":"projects/beauty-spa-84768","resources":{"hostingSite":"beauty-spa-84768"},"state":"ACTIVE","etag":"1_50a1e09b-da4c-47df-9926-c970882d77d6"}
+[debug] [2022-07-29T02:09:40.814Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/523319600466/sites/beauty-spa-84768/versions [none]
+[debug] [2022-07-29T02:09:40.814Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/523319600466/sites/beauty-spa-84768/versions {"config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-07-29T02:09:42.093Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/523319600466/sites/beauty-spa-84768/versions 500
+[debug] [2022-07-29T02:09:42.093Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/523319600466/sites/beauty-spa-84768/versions {"error":{"code":500,"message":"Internal error encountered.","status":"INTERNAL"}}
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2022-07-29T02:09:42.277Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500
+  }
+}
