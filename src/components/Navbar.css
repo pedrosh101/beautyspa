@@ -1,10 +1,8 @@
 .navbar {
-    background:#5f4e6b;
-    height: 70px;
+    background:var(--clr1);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -14,17 +12,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
     max-width: 1500px;
 }
 
 .titles{
-    color: #fff;
+    color: var(--clr2);
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
     display: flex;
     align-items: center;
+    padding: .4em;
 }
 
 .titles img{
@@ -32,10 +30,10 @@
 }
 
 .navbar-text {
-    color: #fff;
+    color: var(--clr2);
     justify-self: start;
     margin-left: 20px;
-    font-size: 2rem;
+    font-size: 2.3em;
     font-family: 'Merriweather', serif;
 }
 
@@ -47,16 +45,12 @@
     list-style: none;
     text-align: center;
     justify-content: end;
-    width: 60vw;
-    margin-right: 2rem;
-}
-
-.nav-item {
-    height: 70px;
+    width: 65vw;
 }
 
 .nav-links {
-    color: #fff;
+    font-size: 1.5em;
+    color: var(--clr2);
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -65,12 +59,12 @@
 }
 
 .nav-links:hover {
-    border-bottom: 4px solid #fff;
+    border-bottom: 2px solid var(--clr2);
     transition: all 0.2s ease-out;
 }
 
 .fa-bars {
-    color: #fff;
+    color: var(--clr2);
 }
 
 .nav-links-mobile {
@@ -97,11 +91,11 @@
         left: -100%;
         opacity: 1;
         transition: all 0.5s ease;
-        background-color: rgb(94, 43, 100);
+        background-color: var(--clr2);
     }
 
     .nav-menu.active {
-        background: #9b70af;
+        background: var(--clr1);
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;

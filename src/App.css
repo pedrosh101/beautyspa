@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
+:root {
+  --clr1: #5f4e6b;
+  --clr2: #ebd9d9;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

@@ -9,19 +9,13 @@ function HeroSection() {
       <h1>Beauty Spa</h1>
       <p>Venha conhecer nosso espaço</p>
       <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          Massagens Terapêuticas
-        </Button>
+
         <Button
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
         >
-          Cabelos <i className='far fa-play-circle' />
+          Dependências <i className='far fa-play-circle' />
         </Button>
       </div>
     </div>
