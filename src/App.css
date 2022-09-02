@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
+@font-face {
+  font-family: FUT;
+  src: url(./fonts/FuturaStd-Medium.otf)
+}
+
+@font-face {
+  font-family: FUT2;
+  src: url(./fonts/FuturaStd-Bold.otf)
+}
+
 :root {
   --clr1: #5f4e6b;
   --clr2: #ebd9d9;
@@ -9,5 +19,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', sans-serif;
 }
+
+h1 {
+  font-family: FUT;
+  color: var(--clr2);
+}
+
