@@ -3,7 +3,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff;
+
     font-size: 100px;
     display: flex;
     flex-direction: column;
@@ -29,18 +29,30 @@
 .location {
     display: flex;
     align-items: center;
-    background-color: #fff;
-    color: #622db6;
+    background-color: var(--clr2);
+    padding: 5em;
+}
+
+.location h1{
+    color: var(--clr1);
 }
 
 .location-text {
-    margin: 32px;
-    text-align: justify;
+    max-width: 32vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    padding: 4em 4em;
+    color: var(--clr1);
+    background-color: rgba(0, 0, 0, .03);
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
 }
 
 #map{
-    margin: 50px;
-    outline: 1px solid #622db6;
+    margin: 5em;
+    outline: 1px solid var(--clr1);
     width: 60%;
     height: 60vh;
 }

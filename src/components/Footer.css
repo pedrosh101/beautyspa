@@ -1,5 +1,8 @@
 .footer-container {
     background-color: var(--clr1);
+}
+
+.footer-info{
     padding: 4.5em 9em;
     display: flex;
     justify-content: space-between;
@@ -11,7 +14,7 @@
     letter-spacing: 2px;
 }
 
-.footer-container p {
+.footer-info p {
     font-size: 1.1em;
     letter-spacing: 1px;
 }
@@ -43,6 +46,16 @@
 
 .endereco > *{
     margin: 10px;
+}
+
+.last-line{
+    display: flex;
+    justify-content: space-between;
+    padding: .3em 5em;
+    color:rgb(211, 189, 218);
+    font-size: .6em;
+    letter-spacing: 1px;
+    font-family: FUT;
 }
 
 /* Social Icons */

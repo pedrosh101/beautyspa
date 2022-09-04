@@ -21,8 +21,11 @@
   padding: 0;
 }
 
+body {
+  height: 100vh;
+}
+
 h1 {
   font-family: FUT;
   color: var(--clr2);
 }
-

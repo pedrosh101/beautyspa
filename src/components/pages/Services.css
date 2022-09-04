@@ -1,4 +1,4 @@
-.services_container{
+.services-main{
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -11,19 +11,22 @@
   color: #fff;
 }
 
-.services_container h1{
+.services-main h1{
   font-family: FUT2;
 }
 
 .servico {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: 1.7rem;
   color: rgb(75, 47, 47);
   background-color: var(--clr2);
-  padding: 5rem;
+}
+
+.compile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8rem;
+  gap: 5em;
 }
 
 .imgframe {
@@ -36,31 +39,32 @@
 }
 
 .imgframe h1 {
-  padding: 5px;
+  padding: 8px;
   background-color: #5f4e6b;
   width: fit-content;
   color: #fff;
   font-size: 1.5em;
   position: absolute;
   top: 94%;
+  letter-spacing: 1.6px;
+  border-radius: 3px;
 }
 
 .imgframe img {
-  height: 500px;
-  width: 500px;
+  height: 700px;
+  width: 550px;
   object-fit: cover;
 }
 
 .description {
-  width: 70vw;
+  max-width: 32vw;
   text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: 1.15rem;
-  padding: 50px 0 0 0;
-}
-
-.description p {
+  font-size: 1.3rem;
+  padding: 4em 4em;
+  color: var(--clr1);
+  background-color: rgba(0, 0, 0, .03);
   font-family: 'Merriweather', serif;
   line-height: 1.6;
 }
@@ -77,10 +81,9 @@
     width: 350px;
     object-fit: cover;
   }
-}
 
-@media screen and (max-width: 768px){
   .services_container{
     font-size: 2rem;
   }
 }
+

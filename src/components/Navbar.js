@@ -2,18 +2,21 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
+
 function Navbar() {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
+
   return (
     <>
+
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" style={{ textDecoration: 'none' }} div className="titles">
-            <img src="icons/bslogo.svg" className="logo" />
+            <img src="icons/bslogo.svg" className="logo" alt="logo" />
             <div className="navbar-text" onClick={closeMobileMenu}>
               Beauty Spa
             </div>
@@ -44,6 +47,7 @@ function Navbar() {
           </ul>
         </div>
       </nav>
+
     </>
   );
 }

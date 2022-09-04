@@ -5,6 +5,7 @@ function Footer() {
   return (
     <>
       <section className="footer-container">
+        <div className="footer-info">
         <div className="prof">
           <div className="footer-subscription">
             <h1 className="footer-heading">Alexandre Gabriel</h1>
@@ -34,28 +35,34 @@ function Footer() {
           <h1 className="endereco-heading">Endereço</h1>
           <p>Rua Durval Rocha, 192</p>
           <p>Vila Paraíba - Guaratinguetá-SP</p>
-        <div className="social-media">
-          <div className="social-icons">
-            <Link
-              className="social-icon-link facebook"
-              to="/"
-              target="_blank"
-              aria-label="Facebook"
-            >
-              <i className="fab fa-facebook-f" />
-            </Link>
+          <div className="social-media">
+            <div className="social-icons">
+              <Link
+                className="social-icon-link facebook"
+                to="/"
+                target="_blank"
+                aria-label="Facebook"
+              >
+                <i className="fab fa-facebook-f" />
+              </Link>
 
-            <a
-              href="https://www.instagram.com/beautyspavp/"
-              className="social-icon-link instagram"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Instagram"
-            >
-              <i className="fab fa-instagram" />
-            </a>
+              <a
+                href="https://www.instagram.com/beautyspavp/"
+                className="social-icon-link instagram"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Instagram"
+              >
+                <i className="fab fa-instagram" />
+              </a>
+            </div>
           </div>
         </div>
+        </div>
+        <div className="last-line">
+          <p>Beauty Spa</p>
+          <p>All rights reserved © 2022</p>
+          <p>Designed by Pedro Henrique Lima</p>
         </div>
       </section>
     </>
