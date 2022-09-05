@@ -58,6 +58,10 @@
     font-family: FUT;
 }
 
+a{
+    color:rgb(211, 189, 218);
+}
+
 /* Social Icons */
 .social-icon-link {
     color: var(--clr2);

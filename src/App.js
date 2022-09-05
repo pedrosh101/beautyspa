@@ -6,7 +6,7 @@ import Home from "./components/pages/Home";
 import Services from "./components/pages/Services";
 import Products from "./components/pages/Products";
 import About from "./components/pages/About";
-import SignUp from "./components/pages/SignUp";
+import Dependencias from "./components/pages/Dependencias";
 import Footer from "./components/Footer";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -23,7 +23,7 @@ function App() {
               <Route path="/" exact element={<Home />} />
               <Route path="/services" element={<Services />} />
               <Route path="/products" element={<Products />} />
-              <Route path="/sign-up" element={<SignUp />} />
+              <Route path="/sign-up" element={<Dependencias />} />
               <Route path="/about" element={<About />} />
             </Routes>
             <Footer />

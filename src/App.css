@@ -29,3 +29,7 @@ h1 {
   font-family: FUT;
   color: var(--clr2);
 }
+
+a{
+  text-decoration: none;
+}
