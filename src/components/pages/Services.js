@@ -28,7 +28,7 @@ function Services() {
       <div className="services-main">
         <h1>Serviços</h1>
       </div>
-      <section ref={imgRef}>
+      <section className="servicoContainer" ref={imgRef}>
         <div className="servico">
           <div className="compile">
             <div className="imgframe">

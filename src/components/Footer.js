@@ -55,6 +55,16 @@ function Footer() {
                 >
                   <i className="fab fa-instagram" />
                 </a>
+
+                <a
+                  href="https://wa.me/5512997979084"
+                  className="social-icon-link whatsapp"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Whatsapp"
+                >
+                  <i className="fab fa-whatsapp" />
+                </a>
               </div>
             </div>
           </div>

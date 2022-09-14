@@ -5,7 +5,7 @@
     align-items: center;
     position: sticky;
     top: 0;
-    z-index: 999;
+    z-index: 9999;
 }
 
 .navbar-container {
@@ -18,21 +18,21 @@
 .titles{
     color: var(--clr2);
     justify-self: start;
-    margin-left: 20px;
+    margin-left: 10px;
     cursor: pointer;
     display: flex;
     align-items: center;
-    padding: .4em;
+    padding: .6em;
 }
 
 .titles img{
-    width: 4rem;
+    width: 4.2rem;
 }
 
 .navbar-text {
     color: var(--clr2);
     justify-self: start;
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 2em;
     font-family: 'Merriweather', serif;
 }

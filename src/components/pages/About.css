@@ -29,8 +29,10 @@
 .location {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: var(--clr2);
     padding: 5em;
+    gap: 5em;
 }
 
 .location h1{
@@ -51,10 +53,13 @@
 }
 
 #map{
-    margin: 5em;
     outline: 1px solid var(--clr1);
-    width: 60%;
+    width: 40%;
     height: 60vh;
+}
+
+.mapContainer{
+    height: 100%;
 }
 
 @media screen and (max-width: 768px){

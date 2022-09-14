@@ -16,7 +16,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" style={{ textDecoration: 'none' }} div className="titles">
-            <img src="icons/bslogo.svg" className="logo" alt="logo" />
+            <img src="icons/bslogo.png" className="logo" alt="logo" />
             <div className="navbar-text" onClick={closeMobileMenu}>
               Beauty Spa
             </div>
