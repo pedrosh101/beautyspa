@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar";
+
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
@@ -7,7 +7,7 @@ import Services from "./components/pages/Services";
 import Products from "./components/pages/Products";
 import About from "./components/pages/About";
 import Dependencias from "./components/pages/Dependencias";
-import Footer from "./components/Footer";
+
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
@@ -18,7 +18,6 @@ function App() {
     <>
           <Router>
             <ScrollToTop />
-            <Navbar />
             <Routes>
               <Route path="/" exact element={<Home />} />
               <Route path="/services" element={<Services />} />
@@ -26,7 +25,6 @@ function App() {
               <Route path="/sign-up" element={<Dependencias />} />
               <Route path="/about" element={<About />} />
             </Routes>
-            <Footer />
           </Router>
     </>
   );

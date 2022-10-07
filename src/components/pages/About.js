@@ -1,16 +1,20 @@
 import "../../App.css";
 import "./About.css";
+import aboutImg from "../../images/aboutImg.jpg";
+import Footer from "../Footer";
+import Navbar from "../Navbar";
 import Map from "./Map";
-
-
 
 export default function About() {
   return (
     <>
-        <div className="about">
+      <section className="pageHeader">
+        <Navbar />
+        <div className="pageContent">
+          <img src={aboutImg} alt="back" className="background" />
           <h1>Sobre Nós</h1>
         </div>
-        <section class="location">
+        <div class="location">
           <div class="location-text">
             <h1>Onde Estamos</h1>
             <p>
@@ -22,7 +26,9 @@ export default function About() {
           <div id="map">
             <Map />
           </div>
-        </section>
+        </div>
+        <Footer />
+      </section>
     </>
   );
 }

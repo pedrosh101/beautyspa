@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1500px;
+    max-width: 1600px;
 }
 
 .titles{
@@ -22,7 +22,7 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    padding: .6em;
+    padding: .8em;
 }
 
 .titles img{
@@ -77,9 +77,13 @@
 
 
 
-@media screen and (max-width: 960px) {
+@media all and (max-width: 50em) {
     .NavbarItems {
         position: relative;
+    }
+
+    .navbar-container{
+        padding: 1.4em;
     }
 
     .nav-menu {

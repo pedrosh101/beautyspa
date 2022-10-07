@@ -37,14 +37,15 @@ function Footer() {
             <p>Vila Paraíba - Guaratinguetá-SP</p>
             <div className="social-media">
               <div className="social-icons">
-                <Link
-                  className="social-icon-link facebook"
-                  to="/"
+                <a
+                  href="https://wa.me/5512997979084"
+                  className="social-icon-link whatsapp"
                   target="_blank"
-                  aria-label="Facebook"
+                  rel="noreferrer"
+                  aria-label="Whatsapp"
                 >
-                  <i className="fab fa-facebook-f" />
-                </Link>
+                  <i className="fab fa-whatsapp" />
+                </a>
 
                 <a
                   href="https://www.instagram.com/beautyspavp/"
@@ -56,15 +57,14 @@ function Footer() {
                   <i className="fab fa-instagram" />
                 </a>
 
-                <a
-                  href="https://wa.me/5512997979084"
-                  className="social-icon-link whatsapp"
+                <Link
+                  className="social-icon-link facebook"
+                  to="/"
                   target="_blank"
-                  rel="noreferrer"
-                  aria-label="Whatsapp"
+                  aria-label="Facebook"
                 >
-                  <i className="fab fa-whatsapp" />
-                </a>
+                  <i className="fab fa-facebook-f" />
+                </Link>
               </div>
             </div>
           </div>

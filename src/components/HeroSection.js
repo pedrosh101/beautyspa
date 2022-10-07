@@ -1,13 +1,13 @@
 import "../App.css";
 import { Button } from "./Button";
 import "./HeroSection.css";
-
-
+import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 function HeroSection() {
-
   return (
-
+    <>
+      <Navbar />
       <div className="hero-container">
         <video src="videos/video-1.mp4" autoPlay loop muted />
         <h1>Beauty Spa</h1>
@@ -22,7 +22,8 @@ function HeroSection() {
           </Button>
         </div>
       </div>
-
+      <Footer />
+    </>
   );
 }
 
