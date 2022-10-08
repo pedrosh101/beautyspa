@@ -16,6 +16,13 @@ function Footer() {
               </p>
             </div>
             <div className="footer-subscription">
+              <h1 className="footer-heading">Débora Letícia</h1>
+              <p className="footer-text">Cabeleireira - Maquiadora</p>
+              <p className="footer-tel">
+                <i className="fab fa-whatsapp" /> (12) 98156-9790
+              </p>
+            </div>
+            <div className="footer-subscription">
               <h1 className="footer-heading">Heloisa Laia</h1>
               <p className="footer-text">Massoterapeuta - Depiladora</p>
               <p className="footer-tel">
@@ -23,13 +30,7 @@ function Footer() {
                 <i className="fa fa-phone" /> (12) 3125-4889
               </p>
             </div>
-            <div className="footer-subscription">
-              <h1 className="footer-heading">Profissional 3</h1>
-              <p className="footer-text">Terapeuta - CRT: 43.332</p>
-              <p className="footer-tel">
-                <i className="fab fa-whatsapp" /> (12) 99797-9084
-              </p>
-            </div>
+
           </div>
           <div className="endereco">
             <h1 className="endereco-heading">Endereço</h1>
@@ -69,7 +70,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="last-line">
+        <div className="lastLine">
           <p>Beauty Spa</p>
           <p>All rights reserved © 2022</p>
           <a

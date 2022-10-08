@@ -53,6 +53,10 @@ a{
   z-index: -1;
 }
 
+.pageContent h1{
+  font-size: 7em;
+}
+
 .background {
   transform: translateZ(-10px) scale(2);
   position: absolute;

@@ -36,7 +36,16 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Serviços
+                Terapia
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/estetica"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Estética
               </Link>
             </li>
             <li className="nav-item">

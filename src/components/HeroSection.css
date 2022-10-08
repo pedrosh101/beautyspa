@@ -20,7 +20,7 @@ video {
 
 .hero-container h1 {
   color: var(--clr2);
-  font-size: 100px;
+  font-size: 7em;
   margin-top: -100px;
   font-family: FUT2;
 }
@@ -58,12 +58,12 @@ video {
 
 @media screen and (max-width: 768px) {
   .hero-container>h1 {
-    font-size: 50px;
+    font-size: 3.2em;
     margin-top: -100px;
   }
 
   .hero-container p {
-    font-size: 30px;
+    font-size: 1.6em;
   }
 
   .btn-mobile {

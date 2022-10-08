@@ -48,13 +48,14 @@
     margin: 10px;
 }
 
-.last-line{
+.lastLine{
     display: flex;
     justify-content: space-between;
     padding: .3em 5em;
     color:rgb(211, 189, 218);
-    font-size: .6em;
+    font-size: .5em;
     letter-spacing: 1px;
+
     font-family: FUT;
 }
 
@@ -82,7 +83,27 @@ a{
     .footer-container {
         flex-direction: column;
         text-align: center;
+    }
 
+    .footer-info{
+        padding: 1.6em;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .footer-container h1{
+        letter-spacing: 2px;
+        font-size: 1.6em;
+    }
+    
+    .footer-info p {
+        font-size: 1em;
+        letter-spacing: 1px;
+    }
+
+    .lastLine{
+        flex-direction: column;
+        padding: 1em;
     }
 
 }

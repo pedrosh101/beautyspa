@@ -34,7 +34,7 @@ function Services() {
         <Navbar />
         <div className="pageContent">
           <img src={servicesImg} alt="back" className="background" />
-          <h1>Serviços</h1>
+          <h1>Terapia</h1>
         </div>
         <div className="servicoContainer">
           <div className="servico">

@@ -14,6 +14,28 @@ export default function About() {
           <img src={aboutImg} alt="back" className="background" />
           <h1>Sobre Nós</h1>
         </div>
+        <div className="equipeBs">
+          <div className="person">
+            <div>
+              <h3>Alexandre Gabriel</h3>
+            </div>
+
+            <img src="../img-cards/img-10.jpg" alt="ps1" />
+          </div>
+          <div className="person">
+            <div>
+              <h3>Débora Letícia</h3>
+            </div>
+            <img src="../img-cards/img-12.jpg" alt="ps2" />
+          </div>
+          <div className="person">
+            <div>
+              <h3>Heloisa Laia</h3>
+            </div>
+
+            <img src="../img-cards/img-11.jpg" alt="ps3" />
+          </div>
+        </div>
         <div class="location">
           <div class="location-text">
             <h1>Onde Estamos</h1>
