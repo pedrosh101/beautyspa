@@ -1,4 +1,4 @@
-import "./Estetica.css";
+import "./Services.css";
 import React from "react";
 import esteticaImg from "../../images/esteticaImg.jpg";
 import Navbar from "../Navbar";
@@ -30,7 +30,7 @@ function Estetica() {
             </div>
           </div>
           <div className="servico">
-            <div className="compile">
+            <div className="compile inv">
               <div className="description">
                 <p>
                   Uma maquiagem bem feita visa ressaltar os pontos fortes de

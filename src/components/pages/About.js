@@ -40,9 +40,9 @@ export default function About() {
           <div class="location-text">
             <h1>Onde Estamos</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
-              reprehenderit modi neque? Nemo, atque. Magni eveniet consequuntur
-              magnam maxime praesentium ullam obcaecati.
+              Chegar na Beauty Spa é fácil, estamos na Rua Durval Rocha número
+              192, na Vila Paraíba - Guaratinguetá-SP <br />
+              Venha nos conhecer!
             </p>
           </div>
           <div id="map">

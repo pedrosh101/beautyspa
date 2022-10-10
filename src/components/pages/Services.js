@@ -1,32 +1,13 @@
 import "./Services.css";
-import React, {  useEffect } from "react";
+import React from "react";
 import servicesImg from "../../images/servicesImg.jpg";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import { useInView } from "react-intersection-observer";
-import { gsap } from "gsap";
+
 
 
 function Services() {
 
-  const {ref, inView} = useInView({
-    threshold: 0.3
-  });
-
-  useEffect(() => {
-    const q = gsap.utils.selector(ref);
-    q(".compile").forEach((imgframe) => {
-      gsap.fromTo(
-        imgframe,
-        { y: 60, opacity: 0 },
-        {
-          y: 0,
-          opacity: 1,
-          duration: 4,
-        }, inView
-      );
-    });
-  }, [inView]);
 
   return (
     <>
@@ -38,7 +19,7 @@ function Services() {
         </div>
         <div className="servicoContainer">
           <div className="servico">
-            <div className="compile" ref={ref}>
+            <div className="compile">
               <div className="imgframe">
                 <img src="../img-cards/img-2.jpg" alt="acupuntura" />
                 <h1>Acupuntura</h1>
@@ -55,7 +36,7 @@ function Services() {
             </div>
           </div>
           <div className="servico">
-            <div className="compile">
+            <div className="compile inv">
               <div className="description">
                 <p>
                   Reiki é uma técnica milenar japonesa voltada para a cura
@@ -89,7 +70,7 @@ function Services() {
             </div>
           </div>
           <div className="servico">
-            <div className="compile">
+            <div className="compile inv">
               <div className="description">
                 <p>
                   A massagem pós-cirúrgica é muito procurada por pessoas que
@@ -107,7 +88,7 @@ function Services() {
             </div>
           </div>
           <div className="servico">
-            <div className="compile">
+            <div className="compile b">
               <div className="imgframe">
                 <img src="../img-cards/img-7.jpg" alt="mass" />
                 <h1>Massagens Relaxantes</h1>
@@ -123,7 +104,7 @@ function Services() {
             </div>
           </div>
           <div className="servico">
-            <div className="compile">
+            <div className="compile inv b">
               <div className="description">
                 <p>
                   A massagem estética é uma massagem feita com movimentos mais
@@ -140,7 +121,7 @@ function Services() {
             </div>
           </div>
           <div className="servico">
-            <div className="compile">
+            <div className="compile b">
               <div className="imgframe">
                 <img src="../img-cards/img-5.jpg" alt="dren" />
                 <h1>Drenagem Linfática</h1>

@@ -54,7 +54,7 @@ a{
 }
 
 .pageContent h1{
-  font-size: 7em;
+  font-size: 5em;
 }
 
 .background {
@@ -64,4 +64,20 @@ a{
   width: 103%;
   object-fit: cover;
   z-index: -1;
+}
+
+@media screen and (max-width: 768px){
+  .pageContent h1{
+    font-size: 3.8em;
+  }
+
+  .background {
+    transform: translateZ(-10px) scale(2);
+    position: absolute;
+    height: 100%;
+    width: 103%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
 }

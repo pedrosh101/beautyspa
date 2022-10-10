@@ -11,17 +11,18 @@
 .person{
     display: flex;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, .1);
     padding: 1em;
 }
 
 .person h3{
-    font-size: 2.8em;
+    font-size: 2.4em;
+    margin-right: 10px;
 }
 
 .equipeBs img{
-    height: 30em;
-    object-fit: contain;
+    height: 50vh;
+    object-fit: cover;
 }
 
 .location {
@@ -45,7 +46,7 @@
     font-size: 1.3rem;
     padding: 4em;
     color: var(--clr1);
-    background-color: rgba(0, 0, 0, .03);
+    background-color: rgba(0, 0, 0, .1);
     font-family: 'Merriweather', serif;
     line-height: 1.6;
 }
@@ -64,15 +65,35 @@
     .about p{
         width: 20rem;
         font-size: .5em;
-        background-color: rgba(0, 0, 0, .5)
     }
 
     .location{
         flex-direction: column;
+        padding: 1em;
+        gap: 1em;
     }
 
     #map{
         margin: 0 0 20px 0;
-        width: 80%;
+        width: 100%;
+    }
+
+    .equipeBs{
+        grid-template-columns: 1fr;
+        padding: 4em 1em;
+        gap: 2em;
+    }
+
+    .person{
+        flex-direction: column;
+        gap: 1em;
+        padding: 2em;
+        text-align: center;
+    }
+
+    .location-text {
+        max-width: 100vw;
+        font-size: 1.3rem;
+        padding: 1em;
     }
 }

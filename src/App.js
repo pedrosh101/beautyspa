@@ -7,7 +7,7 @@ import Services from "./components/pages/Services";
 import Estetica from "./components/pages/Estetica";
 import Products from "./components/pages/Products";
 import About from "./components/pages/About";
-import Dependencias from "./components/pages/Dependencias";
+
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -24,7 +24,6 @@ function App() {
               <Route path="/services" element={<Services />} />
               <Route path="/estetica" element={<Estetica />} />
               <Route path="/products" element={<Products />} />
-              <Route path="/sign-up" element={<Dependencias />} />
               <Route path="/about" element={<About />} />
             </Routes>
           </Router>
