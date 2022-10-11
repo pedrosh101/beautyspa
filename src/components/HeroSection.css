@@ -1,14 +1,14 @@
 video {
   object-fit: cover;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   position: fixed;
   z-index: -1;
 }
 
-.hero-container {
-  height: 100vh;
+.heroContainer {
   width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,14 +18,14 @@ video {
   cursor: default;
 }
 
-.hero-container h1 {
+.heroContainer h1 {
   color: var(--clr2);
   font-size: 7em;
   margin-top: -100px;
   font-family: FUT2;
 }
 
-.hero-container p {
+.heroContainer p {
   text-align: center;
   margin-top: 11px;
   color: var(--clr2);
@@ -33,45 +33,23 @@ video {
   font-family: FUT;
 }
 
-.hero-btns {
-  margin-top: 10px;
-}
 
-.hero-btns .btn {
-  margin: 6px;
-}
-
-.btn:hover {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.fa-play-circle {
-  margin-left: 4px;
-}
 
 @media screen and (max-width: 960px) {
-  .hero-container>h1 {
+  .heroContainer>h1 {
     font-size: 70px;
     margin-top: -150px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .hero-container>h1 {
+  .heroContainer>h1 {
     font-size: 3.2em;
     margin-top: -100px;
   }
 
-  .hero-container p {
+  .heroContainer p {
     font-size: 1.6em;
   }
 
-  .btn-mobile {
-    display: block;
-    text-decoration: none;
-  }
-
-  .btn {
-    width: 100%;
-  }
 }

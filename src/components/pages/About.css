@@ -46,7 +46,7 @@
     font-size: 1.3rem;
     padding: 4em;
     color: var(--clr1);
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, .06);
     font-family: 'Merriweather', serif;
     line-height: 1.6;
 }
@@ -67,33 +67,38 @@
         font-size: .5em;
     }
 
-    .location{
-        flex-direction: column;
-        padding: 1em;
-        gap: 1em;
-    }
-
+    
     #map{
         margin: 0 0 20px 0;
         width: 100%;
     }
-
+    
     .equipeBs{
         grid-template-columns: 1fr;
-        padding: 4em 1em;
+        padding: 4em 1em 2em 1em;
         gap: 2em;
     }
-
+    
     .person{
         flex-direction: column;
         gap: 1em;
         padding: 2em;
         text-align: center;
     }
-
+    
+    .location{
+        flex-direction: column;
+        padding: 1em;
+        gap: 1em;
+    }
+    
     .location-text {
         max-width: 100vw;
         font-size: 1.3rem;
         padding: 1em;
+    }
+
+    .location p{
+        font-size: 1em;
     }
 }

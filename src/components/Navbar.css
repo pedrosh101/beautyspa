@@ -126,7 +126,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        transform: translate(0%, 40%);
+        transform: translate(5%, 40%);
     }
 
     .menu-icon {

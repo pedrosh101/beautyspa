@@ -72,13 +72,13 @@
 
   .compile {
     flex-direction: column;
-    gap: 1em;
+    gap: 4vh;
     padding: 1em;
     text-align: center;
   }
 
   .b{
-    gap: 3em;
+    gap: 11vh;
   }
 
   .inv {
