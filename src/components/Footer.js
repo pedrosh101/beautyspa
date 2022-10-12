@@ -26,13 +26,13 @@ function Footer() {
               <h1 className="footer-heading">Heloisa Laia</h1>
               <p className="footer-text">Massoterapeuta - Depiladora</p>
               <p className="footer-tel">
-                <i className="fab fa-whatsapp" /> (12) 99715-8384 -{" "}
-                <i className="fa fa-phone" /> (12) 3125-4889
+                <i className="fab fa-whatsapp" /> (12)  -{" "}
+                <i className="fa fa-phone" /> (12) 
               </p>
             </div>
-
           </div>
           <div className="endereco">
+            <div class="lineFooter"></div>
             <h1 className="endereco-heading">Endereço</h1>
             <p>Rua Durval Rocha, 192</p>
             <p>Vila Paraíba - Guaratinguetá-SP</p>

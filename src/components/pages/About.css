@@ -1,4 +1,4 @@
-.equipeBs{
+.equipeBs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: var(--clr2);
@@ -8,19 +8,19 @@
     gap: 2em;
 }
 
-.person{
+.person {
     display: flex;
     align-items: center;
-    background-color: rgba(0, 0, 0, .1);
     padding: 1em;
 }
 
-.person h3{
+.person h3 {
     font-size: 2.4em;
-    margin-right: 10px;
+    margin-right: 25px;
+    text-align: right;
 }
 
-.equipeBs img{
+.equipeBs img {
     height: 50vh;
     object-fit: cover;
 }
@@ -34,71 +34,92 @@
     gap: 5em;
 }
 
-.location h1{
+.location h1 {
     color: var(--clr1);
+    font-size: 2.4em;
 }
 
-.location-text {
-    max-width: 32vw;
-    text-align: center;
+.location p {
+    font-size: 1.4em;
+}
+
+
+.locationText {
+    max-width: 45vw;
     align-items: center;
     justify-content: center;
-    font-size: 1.3rem;
-    padding: 4em;
     color: var(--clr1);
-    background-color: rgba(0, 0, 0, .06);
     font-family: 'Merriweather', serif;
     line-height: 1.6;
 }
 
-#map{
+#map {
     outline: 1px solid var(--clr1);
     width: 40%;
     height: 60vh;
 }
 
-.mapContainer{
+.mapContainer {
     height: 100%;
 }
 
-@media screen and (max-width: 768px){
-    .about p{
+.line-1 {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .about p {
         width: 20rem;
         font-size: .5em;
     }
 
-    
-    #map{
+
+    #map {
         margin: 0 0 20px 0;
         width: 100%;
     }
-    
-    .equipeBs{
+
+    .equipeBs {
         grid-template-columns: 1fr;
         padding: 4em 1em 2em 1em;
         gap: 2em;
     }
-    
-    .person{
-        flex-direction: column;
+
+    .person {
+        flex-direction: column-reverse;
         gap: 1em;
         padding: 2em;
-        text-align: center;
     }
-    
-    .location{
+
+    .person h3 {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .location {
         flex-direction: column;
         padding: 1em;
         gap: 1em;
     }
-    
-    .location-text {
+
+    .locationText {
         max-width: 100vw;
-        font-size: 1.3rem;
         padding: 1em;
+        text-align: center;
     }
 
-    .location p{
-        font-size: 1em;
+    .locationText p {
+        font-size: 1.2em;
+        padding: .7em 0;
     }
+
+    .line-1 {
+        display: flex;
+        height: 1.2px;
+        width: 60vw;
+        background: var(--clr1);
+        margin-bottom: 40px;
+    }
+
+
 }

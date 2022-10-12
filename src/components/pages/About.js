@@ -37,7 +37,8 @@ export default function About() {
           </div>
         </div>
         <div class="location">
-          <div class="location-text">
+        <div class="line-1"></div>
+          <div class="locationText">
             <h1>Onde Estamos</h1>
             <p>
               Chegar na Beauty Spa é fácil, estamos na Rua Durval Rocha número

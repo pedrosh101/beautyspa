@@ -50,7 +50,7 @@
   color: var(--clr1);
   background-color: rgba(0, 0, 0, .03);
   font-family: 'Merriweather', serif;
-  line-height: 1.6;
+  line-height: 1.45;
 }
 
 @media screen and (max-width: 768px) {
