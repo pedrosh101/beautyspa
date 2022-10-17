@@ -18,23 +18,35 @@ export default function About() {
           <div className="person">
             <div>
               <h3>Alexandre Gabriel</h3>
+              <p>Terapeuta</p>
             </div>
-
             <img src="../img-cards/img-10.jpg" alt="ps1" />
           </div>
+
           <div className="person">
             <div>
               <h3>Débora Letícia</h3>
+              <p>Cabeleireira - Maquiadora</p>
             </div>
             <img src="../img-cards/img-12.jpg" alt="ps2" />
           </div>
+
           <div className="person">
             <div>
               <h3>Heloisa Laia</h3>
+              <p>Massoterapeuta - Depiladora</p>
             </div>
-
             <img src="../img-cards/img-11.jpg" alt="ps3" />
           </div>
+
+          <div className="person">
+            <div>
+              <h3>Renata Santos</h3>
+              <p>Podóloga</p>
+            </div>
+            <img src="../img-cards/img-14.jpg" alt="ps4" />
+          </div>
+
         </div>
         <div class="location">
         <div class="line-1"></div>

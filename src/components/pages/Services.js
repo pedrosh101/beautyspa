@@ -14,7 +14,7 @@ function Services() {
       <section className="pageHeader">
         <Navbar />
         <div className="pageContent">
-          <img src={servicesImg} alt="back" className="background" />
+          <img src={servicesImg} alt="back" className="background" id="servBack" />
           <h1>Terapia</h1>
         </div>
         <div className="servicoContainer">
