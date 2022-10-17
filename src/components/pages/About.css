@@ -103,6 +103,12 @@
     .person h3 {
         text-align: center;
         margin-right: 0;
+        margin-top: 10px;
+    }
+    
+    .person p{
+        text-align: center;
+        margin-right: 0;
     }
 
     .location {

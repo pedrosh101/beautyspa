@@ -42,7 +42,7 @@ function Estetica() {
               </div>
               <div className="imgframe">
                 <img src="../img-cards/img-13.jpg" alt="acupuntura" />
-                <h1>Prótese Capilar</h1>
+                <h1>Prótese</h1>
               </div>
             </div>
           </div>

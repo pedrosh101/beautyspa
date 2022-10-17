@@ -116,7 +116,7 @@ function Services() {
               </div>
               <div className="imgframe">
                 <img src="../img-cards/img-4.jpg" alt="massest" />
-                <h1>Massagem Estética</h1>
+                <h1>Massagem</h1>
               </div>
             </div>
           </div>
