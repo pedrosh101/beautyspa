@@ -15,10 +15,6 @@ function HeroSection() {
         <h1>Beauty Spa</h1>
         <p>Venha conhecer nosso espaço</p>
         </div>
-      {/* <div className="heroContainer">
-        <video src="videos/video.mp4" autoPlay loop muted /> 
-
-      </div> */}
       <Footer />
     </section>
     </>
