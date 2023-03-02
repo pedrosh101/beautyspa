@@ -5,7 +5,6 @@ import ScrollToTop from "./components/ScrollToTop";
 import Home from "./components/pages/Home";
 import Services from "./components/pages/Services";
 import Estetica from "./components/pages/Estetica";
-import Products from "./components/pages/Products";
 import About from "./components/pages/About";
 
 
@@ -23,7 +22,6 @@ function App() {
               <Route path="/" exact element={<Home />} />
               <Route path="/services" element={<Services />} />
               <Route path="/estetica" element={<Estetica />} />
-              <Route path="/products" element={<Products />} />
               <Route path="/about" element={<About />} />
             </Routes>
           </Router>
